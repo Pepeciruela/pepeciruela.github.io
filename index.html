@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<STYLE>
+.navegador{
+    overflow: hidden;
+} 
+.navegador-superior, .navegador-inferior {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.navegador-superior {    
+            font-size: 13px;    
+        }
+.navegador-inferior {
+            border-top: 1px solid #dfe1e5;
+            font-size: 14px;
+            background-color: #f2f2f2;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            width: 100%;
+        }
+li {
+        float: left;
+        }
+        .navegador-derecha, .navegador-inferior-derecha {
+            float: right;
+        }
+        .navegador-superior, .link-navegacion-inferior {
+            display: block;
+            padding-right: 8px;
+            text-decoration: none;
+        }
+        .link-navegacion {
+            padding: 15px;
+            color: rgba(0,0,0,0.87);
+        }
+        .link-navegacion-inferior {
+            padding: 12px;
+            margin-left: 10px;
+            margin-right: 10px;
+            color: #5F6368;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .aplicaciones {
+            margin-top: 3px;
+        }
+        .Registrarse {
+            background: #4285f4;
+            color: #fff;
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 13px;
+            border: 1px solid #4285f4;
+            border-radius: 3px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin-top: 8px;
+            margin-left: 7px;
+            margin-right: 10px;
+        }
+        #logo {
+            display: block;
+            margin: auto;
+            padding-top: 110px;
+        }
+        .Barra-busquedas {
+            display: block;
+            margin: 0 auto;
+            position: relative;
+            top: 25px;
+            border: 1px solid #dfe1e5;
+            border-radius: 25px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            padding-left: 50px;
+            padding-right: 180px;
+            box-shadow: 5px 5px 5px #f2f2f2;
+        
+        }
+        .boton1, .boton2 {
+            border: 1px solid #f2f2f2;
+            color: #5F6368;
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            padding: 10px;
+            padding-right: 15px;
+            padding-left: 15px;
+            border-radius: 4px;   
+            margin: 8px;     
+            margin-top: 45px;    
+        }
+        .flex-buttons {
+            display: flex;
+            justify-content: center;
+        }
+        .boton1:hover, .boton2:hover {
+            border: 1px solid #c6c6c6;
+            color: #222;
+</STYLE>
+</head>
+<body>
+    <div class="navegador">
+        <ul class="navegador-superior">
+            <li><a class="link-navegacion" href="#">Sobre Google</a></li>
+            <li><a class="link-navegacion" href="#">Tienda</a></li>
+        <div class="navegador-derecha">
+            <li><a class="link-navegacion" href="#">Gmail</a></li>
+            <li><a class="link-navegacion" href="#">Imágenes</a></li>
+            <li><button class="Registrarse" type="button">Registrarse</button></li>
+        </div>
+        </ul>
+    </div><img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo-Google"></div>
+    <div>
+        <form action="#">
+            <input class="Barra-busquedas" type="text">
+            <div class="flex-buttons"><button class="boton1" type="submit">Buscar en Google</button><button class="boton2" type="submit">Voy a tener suerte</button></div>
+        </form>
+    </div>
+    <div class="navegador">
+        <ul class="navegador-inferior">
+            <li><a class="link-navegacion-inferior" href="#">Publicidad</a></li>
+            <li><a class="link-navegacion-inferior" href="#">Empresa</a></li>
+            <li><a class="link-navegacion-inferior" href="#">Como funciona</a></li>
+        <div class="navegador-inferior-derecha">
+            <li><a class="link-navegacion-inferior" href="#">Privacidad</a></li>
+            <li><a class="link-navegacion-inferior" href="#">Términos</a></li>
+            <li><a class="link-navegacion-inferior" href="#">Configuración</a></li>
+        </div>
+        </ul>
+    </div>
+</body>
+</html>
